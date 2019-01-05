@@ -22,11 +22,10 @@ shinyUI(fluidPage(
     
     # Choose file located in working directory
     # A file browser is not provided as this app may be run on a private server. 
-    # When running locally, a directory for file storage can be personalized below (dir)
-    dir = '~'
+    # When running locally, a directory for file storage can be personalized below (~)
     sidebarPanel(
       selectInput("File", "Select a File:",
-                  choices = c(list.files(dir, pattern=c('*.fastq.gz', '*.fastq', '*.fq')), ""),
+                  choices = c(list.files('~', pattern=c('*.fastq.gz', '*.fastq', '*.fq')), ""),
                               selected=""
       ),
       
