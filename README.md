@@ -5,10 +5,10 @@ This program utilizes the Bioconductor package "ShortReads".
 
 Installation
 ------
-## Required Tools
-*R/RStudio
-*R Shiny
-*ShortReads
+### Required Tools
+* R/RStudio
+* R Shiny
+* ShortReads
 
 Data Requirements
 ------
