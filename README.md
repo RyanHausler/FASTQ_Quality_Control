@@ -12,11 +12,11 @@ Installation
 
 Data Requirements
 ------
-## Data types
+### Data types
 This program works with any type of fastq file.
-## Data location
+### Data location
 Desired fastq files should be placed in the R's working directory.
-## Data size
+### Data size
 To reduce memory costs, this program will not read in more than 100,000 fastq reads into working memory. 
 If a file contains more than 100,000 reads, these reads will be randomly selected from the file.
 
