@@ -22,11 +22,11 @@ If a file contains more than 100,000 reads, these reads will be randomly selecte
 
 Plotting Options
 ------
-* Summary:
-* Per Cycle Quality:
-* Per Cycle Base Content: 
-* Distribution of Quality Scores:
-* Per Cycle N Content:
-* Per Read GC Content:
-* Read Length Distribution:
-* Overrepresented Sequences:  
+* Summary: Displays basic information about uploaded FASTQ file like filename, filetype, GC content, number of reads, and average read length.
+* Per Cycle Quality: Plots histograms showing the distribution of read qualities over all reads for each cycle.
+* Per Cycle Base Content: Plots the frequency of bases at each cycle position.
+* Distribution of Quality Scores: Shows the overall distribution of quality scores.
+* Per Cycle N Content: Shows the frequency of N's over all reads for each cycle.
+* Per Read GC Content: Shows the distribution of the GC content of every read as well as the expected normal distribution.
+* Read Length Distribution: Shows the distribution of the length of every read.
+* Overrepresented Sequences: Shows the frequency of reads that occur more than once.
